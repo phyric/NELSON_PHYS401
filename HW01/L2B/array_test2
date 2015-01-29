@@ -1,0 +1,13 @@
+#include <vector>
+#include <iostream>
+
+
+
+
+int main() {
+
+    int array[5] = [1, 2, 3, 4, 5]
+    cout << "array /n" << array[1] << endl << array[2] << endl << array[3] << endl << array[4] << endl; 
+    cout << array << endl;
+    return 0;
+}
