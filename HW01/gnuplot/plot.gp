@@ -19,8 +19,8 @@ set tmargin at screen 0.72
 #set format y "%3.0f"
 set logscale y
 set format x "$%1.0t$"
-set yrange [1e-8:5]    		# set range of x axis
-set xrange [1:9]		# set range of y axis
+set yrange [1e-7:1]    		# set range of x axis
+set xrange [1:10]		# set range of y axis
 set xtics 1     		# set x mayor tics
 set mxtics 10			# set number of x minor tics
 set ytics 5 			# set y mayor tics
@@ -28,8 +28,8 @@ set mytics 1  			# set number of y minor tics
 set grid back lc rgb "#000000"	# set visual grid on plot
 
 # set axes labels
-set xlabel '$k/10^7$'		         	# set label x axis
-set ylabel 'time (s)' 				# set label y axis
+set xlabel 'p value'		         	# set label x axis
+set ylabel 'difference' 				# set label y axis
 
 # styles for symbol plotting
 set style line  1 lt 1 lw 1 pt  7 ps 1.8 lc rgb "#FF0000"
@@ -47,7 +47,7 @@ set style line 14 lt 1 lw 1 lc rgb "#571B7E"
 set style line 15 lt 1 lw 1 lc rgb "#F88017"
 
 plot \
-'Down.txt'   u 1:2 ls 1 t '$t(k)$'
+'UpSingle.txt'   u 1:2 ls 1 t '$t(k)$'
 
 #########################################################
 # symbols

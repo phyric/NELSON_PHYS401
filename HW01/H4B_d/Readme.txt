@@ -1,3 +1,13 @@
+Readme.txt
+
+	The functions that takes the most time in my program are the for loops where the program has to read the data 
+	from the text file. The second for loop takes longer than the first because there are more functions in it.
+	A copy of my code is shown below:
+
+
+
+
+
 #include <fstream>
 #include <iostream>
 #include <algorithm>
@@ -9,8 +19,8 @@ using namespace std;
 
 
 int main() {
-    long p = 1;
-    long array_size = 1000*p;
+    long p = 6;
+    long array_size = 10000000*p;
     double array_size_minus = double(array_size) - double(1);
     double original_array; 
     long count;
@@ -64,3 +74,4 @@ int main() {
 
     return 0;
 }
+

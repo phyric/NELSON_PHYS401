@@ -9,8 +9,8 @@ using namespace std;
 
 
 int main() {
-    long p = 1;
-    long array_size = 1000*p;
+    long p = 7;
+    long array_size = 10000000*p;
     double array_size_minus = double(array_size) - double(1);
     double original_array; 
     long count;

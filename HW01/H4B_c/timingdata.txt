@@ -1,0 +1,39 @@
+timingdata.txt
+
+
+
+P = 1
+real	0m25.080s
+user	0m24.856s
+sys	0m0.205s
+
+p = 2
+real	0m52.677s
+user	0m50.045s
+sys	0m0.464s
+
+p = 3
+real	1m18.248s
+user	1m15.269s
+sys	0m0.668s
+
+p = 4
+real	1m43.638s
+user	1m41.067s
+sys	0m0.923s
+
+p = 5 
+real	2m9.093s
+user	2m5.141s
+sys	0m1.081s
+
+p = 6
+real	2m34.877s
+user	2m31.155s
+sys	0m1.302s
+
+p = 7 
+real	3m20.858s
+user	3m1.649s
+sys	0m1.652s
+
